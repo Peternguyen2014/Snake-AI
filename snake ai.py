@@ -92,8 +92,8 @@ def gameLoop():
     x1 = width / 2
     y1 = height / 2
     snake_List = [[x1, y1]]
-    Length_of_snake = 1000
-    score = 1000
+    Length_of_snake = 1
+    score = 0
 
     foodx = round(random.randrange(0, width - snake_block) / 10.0) * 10.0
     foody = round(random.randrange(0, height - snake_block) / 10.0) * 10.0
